@@ -18,9 +18,6 @@ URL do curso -> [SASS - CSS Sintaticamente Espetacular](https://cursos.alura.com
 ## Siglas &#x1F5FA;
 * **SASS** - *Syntactically Awesome Style Sheets* - Folhas de estilo sintaticamente impressionantes.
 
-## Atalhos &#x2328;
-*
-
 ## 01 - Primeiros Passos com SASS &#x1F516;
 * Entendemos o que é Sass e como podemos manter nossas folhas de estilos criando variáveis e funções.
 * Instalamos o compilador do [Sass através de uma extensão do VSCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass).
@@ -82,3 +79,18 @@ URL do curso -> [SASS - CSS Sintaticamente Espetacular](https://cursos.alura.com
 * Utilizar operadores matemáticos como o `/`.
 * Conceito de escopo nos seletores.
 * Variáveis reservadas pelo **SASS**.
+
+***
+
+## 04 - Serviços e Cupom de Desconto &#x1F516;
+* Modularizamos os códigos de estilo criando a partial de `services` e `cupom`.
+* Aplicamos os estilos nas imagens e nos textos melhorando a visibilidade do SPA.
+
+### 01 - Serviços
+* Estilização padrão da seção de serviços.
+
+### 02 - Imagens e Cards
+* Estilizar as imagens dos cards.
+
+### 03 - Cupom de Desconto
+* Começar a estilizar a parte de cupom.

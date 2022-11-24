@@ -1,0 +1,31 @@
+.banner {
+    background: url("../imagens/banner.jpeg") 27% center no-repeat;
+    background-size: cover;
+
+    min-height: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .inner__banner {
+        background-color: $tertiary-color;
+
+        border-radius: 45px;
+        padding: 3rem;
+
+        opacity: .9;
+
+        h1 {
+            color: $primary-color;
+            // In SASS, selectors contain the concept of scope, so if a variable changes, scopes that are after the current selector will not be affected by the variable change.
+            // $primary-color: red;
+            font-size: $text-height;
+        }
+
+        h2 {
+            color: $primary-color;
+            font-size: $text-height / 2; // It's possible do math operations in the SCSS file
+        }
+    }
+}

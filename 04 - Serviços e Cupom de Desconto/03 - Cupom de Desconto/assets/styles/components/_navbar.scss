@@ -1,0 +1,22 @@
+nav {
+    text-align: center;
+
+    ul {
+        li {
+            display: inline-block;
+
+            padding: 1rem;
+
+            a {
+                color: $tertiary-color;
+                font-weight: bold;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                &:hover {
+                    border-bottom: 2px solid $secundary-color;
+                }
+            }
+        }
+    }
+}

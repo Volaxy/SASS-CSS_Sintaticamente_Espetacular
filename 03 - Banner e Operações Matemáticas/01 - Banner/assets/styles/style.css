@@ -1,0 +1,30 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  color: #A72693;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #241663;
+}
+
+.banner {
+  background: url("../imagens/banner.jpeg") 27% center no-repeat;
+  background-size: cover;
+  min-height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

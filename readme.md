@@ -67,3 +67,18 @@ URL do curso -> [SASS - CSS Sintaticamente Espetacular](https://cursos.alura.com
 * Usar o seletor `&` para utilizar o elemento acima.
 * Conceitos de **Modularização**.
 * O que são pré-processadores CSS.
+
+***
+
+## 03 - Banner e Operações Matemáticas &#x1F516;
+* Criamos a partial para manter os estilos do banner e posicionamos a imagem e os textos.
+* Realizamos operações matemáticas para ajustar os tamanho dos textos das tags `h1` e do `h2`.
+* Vimos de forma prática que as variáveis declaradas no nível superior de uma folha de estilo são globais, porém aqueles declarados em blocos geralmente são locais e só podem ser acessados dentro do bloco em que foram declarados.
+
+### 01 - Banner
+* Estilizar o componente de **banner**.
+
+### 02 - Operações Matemáticas
+* Utilizar operadores matemáticos como o `/`.
+* Conceito de escopo nos seletores.
+* Variáveis reservadas pelo **SASS**.

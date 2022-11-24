@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+}
+.container .left {
+  background-color: blueviolet;
+  width: 50%;
+}
+.container .left .text {
+  margin-top: 40%;
+  color: darkred;
+  font-size: 150px;
+  text-align: center;
+}
+.container .right {
+  background-color: darkred;
+  width: 50%;
+}
+.container .right .text {
+  margin-top: 40%;
+  color: blueviolet;
+  font-size: 150px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

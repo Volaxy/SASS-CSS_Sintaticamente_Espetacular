@@ -1,0 +1,45 @@
+// VARIABLES
+$primary-color: blueviolet;
+$secondary-color: darkred;
+
+// MIXINS
+// The mixin is a function which execute a style when is called
+@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+// To add parameters to a mixin, use the "$" to declare the variables, and use then inside the function
+@mixin color-and-background($first-color, $second-color) {
+    background-color: $first-color;
+
+    width: 50%;
+
+    .text {
+        margin-top: 40%;
+
+        color: $second-color;
+        font-size: 150px;
+        text-align: center;
+    }
+}
+
+// STYLES - Top to Bottom
+body {
+    @include reset();
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+
+    .left {
+        // To use a mixin, use the "@include" and call the mixin's name, it's possible to pass arguments to the mixin
+        @include color-and-background($primary-color, $secondary-color);
+    }
+
+    .right {
+        @include color-and-background($secondary-color, $primary-color);
+    }
+}

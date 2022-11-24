@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+
+    // In the SASS, it's represents a ".left" class inside a ".container" class
+    .left {
+        background-color: blueviolet;
+
+        width: 50%;
+
+        .text {
+            margin-top: 40%;
+
+            color: gold;
+            font-size: 150px;
+            text-align: center;
+        }
+    }
+
+    .right {
+        background-color: darkred;
+
+        width: 50%;
+
+        .text {
+            margin-top: 40%;
+
+            color: lime;
+            font-size: 150px;
+            text-align: center;
+        }
+    }
+}

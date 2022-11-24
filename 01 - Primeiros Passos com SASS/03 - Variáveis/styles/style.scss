@@ -1,0 +1,43 @@
+// To declares a variable in SASS, put the "$" before the variable's name
+// The pattern is use the "-" to separate the words
+$primary-color: blueviolet;
+$secondary-color: darkred;
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+
+    display: flex;
+
+    .left {
+        background-color: $primary-color;
+
+        width: 50%;
+
+        .text {
+            margin-top: 40%;
+
+            color: $secondary-color;
+            font-size: 150px;
+            text-align: center;
+        }
+    }
+
+    .right {
+        background-color: $secondary-color;
+
+        width: 50%;
+
+        .text {
+            margin-top: 40%;
+
+            color: $primary-color;
+            font-size: 150px;
+            text-align: center;
+        }
+    }
+}

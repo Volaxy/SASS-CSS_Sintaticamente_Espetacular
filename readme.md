@@ -94,3 +94,8 @@ URL do curso -> [SASS - CSS Sintaticamente Espetacular](https://cursos.alura.com
 
 ### 03 - Cupom de Desconto
 * Começar a estilizar a parte de cupom.
+
+***
+
+## 05 - Input, Footer e SASS &#x1F516;
+* Estilização da sessão de descontos, estilizando o input e o botão para cadastrar o email.
